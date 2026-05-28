@@ -4,7 +4,7 @@
   "description": "リフォーム費用・年収・物件状況からリフォームローンの適切な借り方を診断。住宅ローンとの組み合わせも解説。月々返済シミュレーション付き。",
   "start_url": "/renovation-loan-advisor/",
   "display": "standalone",
-  "background_color": "#f8faf9",
+  "background_color": "#ffffff",
   "theme_color": "#7c3aed",
   "lang": "ja",
   "icons": [
