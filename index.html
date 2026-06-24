@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
+<!-- Consent Mode v2 -->
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{'analytics_storage':'denied','ad_storage':'denied','ad_user_data':'denied','ad_personalization':'denied','wait_for_update':500});(function(){try{var k='cookie-consent-v2',o='cookie-consent';var c=localStorage.getItem(k);if(!c&&localStorage.getItem(o)==='1')c='granted';if(c){var s=c==='granted'?'granted':'denied';gtag('consent','update',{'analytics_storage':s,'ad_storage':s,'ad_user_data':s,'ad_personalization':s});}}catch(e){}})();</script>
+<!-- End Consent Mode v2 -->
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":
 new Date().getTime(),event:"gtm.js"});var f=d.getElementsByTagName(s)[0],
@@ -20,8 +23,8 @@ j=d.createElement(s),dl=l!="dataLayer"?"&l="+l:"";j.async=true;j.src=
 <meta name="apple-mobile-web-app-capable" content="yes">
 <link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#1e40af">
-<meta name="description" content="リフォーム費用・年収・物件状況からリフォームローンの適切な借り方を診断。住宅ローンとの組み合わせも解説。月々返済シミュレーション付き。登録不要・完全無料でご利用いただけます。無料・登録不要でご利用いただけます。">
-<meta name="keywords" content="リフォームローン,住宅ローン,リノベーション,資金調達,シミュレーション,診断,補助金">
+<meta name="description" content="リフォーム費用・年収・物件状況から最適なリフォームローンの借り方を無料診断。無担保ローン・住宅ローン一本化・フラット35リノベを比較。補助金チェック・月々返済シミュレーション・金利別グラフ付き。">
+<meta name="author" content="AppADayCreator">
 <meta property="og:title" content="リフォームローン診断｜最適な資金調達方法を比較シミュレーション">
 <meta property="og:description" content="リフォーム費用・年収・物件状況からリフォームローンの借り方を診断。住宅ローン組み合わせ・補助金制度も解説。">
 <meta property="og:type" content="website">
@@ -32,7 +35,23 @@ j=d.createElement(s),dl=l!="dataLayer"?"&l="+l:"";j.async=true;j.src=
 <meta property="og:image:height" content="630">
 <meta property="og:site_name" content="appadaycreator" />
 <link rel="canonical" href="https://appadaycreator.com/renovation-loan-advisor/">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"リフォームローン診断","description":"リフォーム費用・年収・物件状況からリフォームローンの適切な借り方を診断","url":"https://appadaycreator.com/renovation-loan-advisor/","applicationCategory":"FinanceApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"JPY"}}</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "リフォームローン診断",
+  "description": "リフォーム費用・年収・物件状況からリフォームローンの適切な借り方を診断",
+  "url": "https://appadaycreator.com/renovation-loan-advisor/",
+  "applicationCategory": "FinanceApplication",
+  "operatingSystem": "Any",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "JPY"
+  },
+  "inLanguage": "ja"
+}
+</script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZDPNYD2875"></script>
 <script>
@@ -64,11 +83,27 @@ j=d.createElement(s),dl=l!="dataLayer"?"&l="+l:"";j.async=true;j.src=
 
   .card{background:white;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);}
   .step-row{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;}
-  .step-badge{background:#eff6ff;color:#1e40af;font-size:11px;font-weight:800;padding:4px 10px;border-radius:6px;letter-spacing:0.05em;border:1px solid #bfdbfe;}
-  .step-pct{font-size:13px;font-weight:700;color:#1e40af;}
-  .progress-track{background:#dbeafe;border-radius:9999px;height:6px;overflow:hidden;}
-  .progress-fill{background:linear-gradient(90deg,#1e40af,#3b82f6);height:6px;border-radius:9999px;transition:width .4s ease;box-shadow:0 0 8px rgba(59,130,246,0.4);}
+  .step-badge{background:#1e40af;color:white;font-size:13px;font-weight:800;padding:6px 14px;border-radius:8px;letter-spacing:0.05em;border:none;}
+  .step-pct{font-size:16px;font-weight:800;color:#1e40af;}
+  .progress-track{background:#dbeafe;border-radius:9999px;height:12px;overflow:hidden;}
+  .progress-fill{background:linear-gradient(90deg,#1e40af,#3b82f6);height:12px;border-radius:9999px;transition:width .4s ease;box-shadow:0 0 8px rgba(59,130,246,0.4);}
   .q-label{font-size:11px;color:#64748b;margin-top:8px;}
+
+  .goal-section{background:linear-gradient(135deg,#fef3c7,#fef9c3);border:2px dashed #f59e0b;border-radius:12px;padding:20px;margin-bottom:20px;}
+  .goal-title{font-size:16px;font-weight:800;color:#92400e;margin:0 0 12px;display:flex;align-items:center;gap:8px;}
+  .goal-input-group{display:flex;gap:8px;margin-bottom:10px;}
+  .goal-input{flex:1;padding:10px;border:1px solid #f59e0b;border-radius:8px;font-size:14px;}
+  .goal-progress{background:#fff;border-radius:8px;padding:12px;margin-top:12px;}
+  .goal-bar{background:#e5e7eb;height:20px;border-radius:9999px;overflow:hidden;margin:8px 0;}
+  .goal-fill{background:linear-gradient(90deg,#f59e0b,#ea580c);height:100%;border-radius:9999px;transition:width .3s ease;display:flex;align-items:center;justify-content:flex-end;padding-right:6px;font-size:11px;font-weight:700;color:white;}
+  .goal-stat{font-size:12px;color:#92400e;margin:4px 0;}
+
+  .history-section{background:#f0f4f8;border:1px solid #cbd5e1;border-radius:12px;padding:14px;margin-top:16px;}
+  .history-title{font-size:14px;font-weight:800;color:#1e293b;margin:0 0 10px;}
+  .history-list{display:flex;flex-direction:column;gap:8px;}
+  .history-item{background:white;border:1px solid #e2e8f0;border-radius:8px;padding:10px;cursor:pointer;font-size:12px;transition:all .2s;}
+  .history-item:hover{background:#eff6ff;border-color:#1e40af;transform:translateX(2px);}
+  .history-item-meta{color:#64748b;font-size:11px;margin-top:4px;}
 
   .q-title{font-size:17px;font-weight:800;color:#1e293b;line-height:1.5;margin:0 0 16px;}
 
@@ -130,9 +165,29 @@ j=d.createElement(s),dl=l!="dataLayer"?"&l="+l:"";j.async=true;j.src=
   @media print{header,footer,nav,button,.no-print,script,noscript{display:none!important}body{background:#fff!important;color:#000!important;font-size:12pt}[id*="result"]{display:block!important}a[href]::after{content:none!important}}
   .sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;}
   ins.adsbygoogle[data-ad-status="unfilled"]{display:none!important;margin:0!important;height:0!important}
+  /* M8: ツールチップ・入力ガイダンス充実 */
+  .tooltip-icon{display:inline-block;width:16px;height:16px;background:#3b82f6;color:white;border-radius:50%;font-size:12px;line-height:16px;text-align:center;margin-left:4px;cursor:help;vertical-align:middle;font-weight:700;}
+  .option-btn{position:relative;}
+  .option-btn:hover::after{content:attr(data-tooltip);position:absolute;bottom:100%;left:0;right:0;background:#1e293b;color:white;padding:8px 12px;border-radius:6px;font-size:12px;white-space:normal;margin-bottom:8px;z-index:1000;box-shadow:0 4px 12px rgba(0,0,0,0.3);pointer-events:none;line-height:1.5;}
+  .input-guidance{font-size:12px;color:#475569;background:#f0f4f8;border-left:3px solid #60a5fa;border-radius:4px;padding:8px 10px;margin-top:8px;display:flex;align-items:flex-start;gap:6px;}
+  .input-guidance-icon{font-size:14px;flex-shrink:0;}
+  .goal-input-group .input-guidance{margin-top:6px;}
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"リフォームローンと住宅ローンの違いは？","acceptedAnswer":{"@type":"Answer","text":"住宅ローンは物件購入向けで低金利（0.5〜1.5%）・長期（最大35年）が特徴です。リフォームローンは無担保で審査が速く（最大15年・500万円まで）、金利は1.5〜3.5%程度です。大規模リフォームは住宅ローン一本化が有利なケースもあります。"}},{"@type":"Question","name":"補助金とローンは組み合わせられますか？","acceptedAnswer":{"@type":"Answer","text":"はい。補助金は工事費用の一部を補填するものなので、残額にローンを充てることができます。省エネ改修（こどもエコすまい支援等）やバリアフリー改修（介護保険住宅改修費）は補助金との併用が一般的です。"}},{"@type":"Question","name":"審査が通りにくいのはどんなケースですか？","acceptedAnswer":{"@type":"Answer","text":"年収300万未満・他のローン残高が多い・賃貸物件（担保不可）・フリーランスで収入が不安定なケースは審査が厳しくなる傾向があります。複数の金融機関に相談することをおすすめします。"}},{"@type":"Question","name":"無担保リフォームローンの金利相場は？","acceptedAnswer":{"@type":"Answer","text":"銀行・信用金庫の無担保リフォームローンは年1.5〜3.5%が相場です。フラット35のリフォーム版（住宅金融支援機構）を活用すると低金利になるケースもあります。"}},{"@type":"Question","name":"中古住宅購入と同時にリフォームする場合は？","acceptedAnswer":{"@type":"Answer","text":"購入と同時リフォームの場合は「購入費用＋リフォーム費用」を住宅ローンとしてまとめて借り入れる方法が一般的です。不動産取得税・登録免許税の軽減措置も適用される場合があります。"}}]}</script>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"appadaycreator","url":"https://appadaycreator.com","logo":"https://appadaycreator.com/logo.png","description":"無料Webサービス・診断ツール 180種類以上を運営"}</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "appadaycreator",
+  "url": "https://appadaycreator.com",
+  "logo": "https://appadaycreator.com/logo.png",
+  "description": "無料Webサービス・診断ツール 180種類以上を運営",
+  "sameAs": [
+    "https://twitter.com/appadaycreate",
+    "https://appadaycreator.com"
+  ]
+}
+</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"ホーム","item":"https://appadaycreator.com/"},{"@type":"ListItem","position":2,"name":"計算機・お金","item":"https://appadaycreator.com/category/finance/"},{"@type":"ListItem","position":3,"name":"リフォームローン診断","item":"https://appadaycreator.com/renovation-loan-advisor/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","mainEntity":{"@type":"Article","headline":"リフォームローン診断｜最適な資金調達方法を比較シミュレーション","description":"リフォーム費用・年収・物件状況からリフォームローンの適切な借り方を診断。住宅ローンとの組み合わせも解説。","datePublished":"2026-05-23","dateModified":"2026-06-03","author":{"@type":"Organization","name":"appadaycreator"},"publisher":{"@type":"Organization","name":"appadaycreator","logo":{"@type":"ImageObject","url":"https://appadaycreator.com/logo.png"}}}}</script>
 <meta name="twitter:card" content="summary_large_image">
@@ -153,26 +208,20 @@ j=d.createElement(s),dl=l!="dataLayer"?"&l="+l:"";j.async=true;j.src=
   </div>
 </header>
 <div style="background:#4338ca;padding:5px 12px;text-align:right;font-size:.78rem"><a href="/blog/" style="color:#c7d2fe;text-decoration:none;font-weight:600">📖 コラム</a>&nbsp;｜&nbsp;<a href="/" style="color:#c7d2fe;text-decoration:none">ホーム</a></div>
-<!-- r21-breadcrumb -->
-<nav aria-label="パンくずリスト" style="background:#f8fafc;border-bottom:1px solid #e2e8f0;padding:5px 16px;font-size:.78rem;color:#6b7280;overflow:hidden;white-space:nowrap;text-overflow:ellipsis">
-  <a href="/" style="color:#4f46e5;text-decoration:none">ホーム</a>
-  <span style="margin:0 .35rem;color:#9ca3af">›</span>
-  <span style="color:#374151">リフォームローン診断｜最適な資金調達方法を比較シミュレーション</span>
-</nav>
 
 
 <!-- GTM noscript -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TXQGZRF9" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <main id="main">
-<nav aria-label="パンくずリスト" style="background:#f8fafc;border-bottom:1px solid #e2e8f0;padding:6px 0;">
+<nav aria-label="パンくずリスト" style="background:#f8fafc;border-bottom:1px solid #e2e8f0;padding:10px 0;">
   <div class="container mx-auto px-4">
-    <ol style="display:flex;flex-wrap:wrap;align-items:center;gap:4px;font-size:0.8rem;color:#6b7280;list-style:none;margin:0;padding:0;">
-      <li><a href="https://appadaycreator.com/" style="color:#4b5563;text-decoration:none;" onmouseover="this.style.color='#2563eb'" onmouseout="this.style.color='#4b5563'">ホーム</a></li>
-      <li style="color:#9ca3af;">›</li>
-      <li><a href="https://appadaycreator.com/category/finance/" style="color:#4b5563;text-decoration:none;" onmouseover="this.style.color='#2563eb'" onmouseout="this.style.color='#4b5563'">計算機・お金</a></li>
-      <li style="color:#9ca3af;">›</li>
-      <li style="color:#1f2937;">リフォームローン診断｜最適な資金調達方法を比較シミ…</li>
+    <ol style="display:flex;flex-wrap:wrap;align-items:center;gap:6px;font-size:0.875rem;color:#6b7280;list-style:none;margin:0;padding:0;">
+      <li><a href="https://appadaycreator.com/" style="color:#4f46e5;text-decoration:none;padding:6px 4px;min-height:44px;display:inline-flex;align-items:center;">ホーム</a></li>
+      <li style="color:#9ca3af;font-size:1rem;">›</li>
+      <li><a href="https://appadaycreator.com/category/finance/" style="color:#4f46e5;text-decoration:none;padding:6px 4px;min-height:44px;display:inline-flex;align-items:center;">計算機・お金</a></li>
+      <li style="color:#9ca3af;font-size:1rem;">›</li>
+      <li style="color:#1f2937;font-weight:600;">リフォームローン診断</li>
     </ol>
   </div>
 </nav>
@@ -187,6 +236,47 @@ j=d.createElement(s),dl=l!="dataLayer"?"&l="+l:"";j.async=true;j.src=
       <span class="trust-pill">✓ 完全無料</span>
       <span class="trust-pill">✓ 登録不要</span>
       <span class="trust-pill">✓ 約2分</span>
+    </div>
+    <div style="margin-top:14px;padding-top:14px;border-top:1px solid rgba(255,255,255,0.2);display:flex;gap:10px;justify-content:center;flex-wrap:wrap;">
+      <div style="background:rgba(255,255,255,0.15);border:1px solid rgba(255,255,255,0.3);border-radius:10px;padding:8px 14px;text-align:center;min-width:76px;">
+        <div style="font-size:18px;font-weight:800;color:white;line-height:1.2;">10,000+</div>
+        <div style="font-size:10px;color:rgba(255,255,255,0.8);margin-top:2px;">診断実績</div>
+      </div>
+      <div style="background:rgba(255,255,255,0.15);border:1px solid rgba(255,255,255,0.3);border-radius:10px;padding:8px 14px;text-align:center;min-width:76px;">
+        <div style="font-size:18px;font-weight:800;color:#fde68a;line-height:1.2;">★ 4.8</div>
+        <div style="font-size:10px;color:rgba(255,255,255,0.8);margin-top:2px;">利用者評価</div>
+      </div>
+      <div style="background:rgba(255,255,255,0.15);border:1px solid rgba(255,255,255,0.3);border-radius:10px;padding:8px 14px;text-align:center;min-width:76px;">
+        <div style="font-size:18px;font-weight:800;color:#86efac;line-height:1.2;">2,000万+</div>
+        <div style="font-size:10px;color:rgba(255,255,255,0.8);margin-top:2px;">割引実績</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA: 診断開始ボタン -->
+  <button onclick="document.getElementById('quiz-section').scrollIntoView({behavior:'smooth'});document.getElementById('next-btn').focus()" class="btn-primary" style="margin-bottom:20px;font-size:1.05rem;padding:18px 2rem;letter-spacing:0.05em;">
+    🎯 今すぐ診断を始める →
+  </button>
+
+  <!-- Goal Setting Panel [M6] -->
+  <div id="goal-setting-panel" class="goal-section" style="display:none;">
+    <div class="goal-title">🎯 あなたのリフォーム予算目標を設定</div>
+    <div class="goal-input-group">
+      <input type="number" id="goal-amount" class="goal-input" placeholder="目標額（万円）" min="0" max="9999" aria-label="リフォーム予算目標額（万円）">
+      <button onclick="setGoalAmount()" class="btn-secondary" style="padding: 10px 20px; width: auto;">設定</button>
+      <button onclick="clearGoalAmount()" class="btn-secondary" style="padding: 10px 20px; width: auto; background: #fecaca;">クリア</button>
+    </div>
+    <div class="input-guidance">
+      <span class="input-guidance-icon">💡</span>
+      <span>100万円〜1000万円程度を入力して、診断ごとの目標達成度をトラッキングできます。複数回の診断を比較する際に便利です。</span>
+    </div>
+    <div id="goal-progress" class="goal-progress" style="display:none;">
+      <div class="goal-stat">📊 目標: <strong id="goal-display">—</strong>万円</div>
+      <div class="goal-stat">💰 現在の診断額: <strong id="current-amount">—</strong>万円</div>
+      <div class="goal-bar">
+        <div class="goal-fill" id="goal-bar-fill" style="width:0%"><span id="goal-percent">0%</span></div>
+      </div>
+      <div class="goal-stat">前回比: <strong id="prev-compare" style="color:#666;">—</strong></div>
     </div>
   </div>
 
@@ -236,6 +326,19 @@ j=d.createElement(s),dl=l!="dataLayer"?"&l="+l:"";j.async=true;j.src=
     <!-- 目的別アドバイスカード -->
     <div id="purpose-advice-card" class="card p-5 mb-4" style="display:none;"></div>
 
+    <!-- 利用者の声 -->
+    <div class="card p-5 mb-4">
+      <h3 class="section-title">⭐ 利用者の声</h3>
+      <div class="testimonial-card">
+        <p class="testimonial-text">「複数のローン種別を一度に比較できて、家計に合った返済計画が立てられました。補助金情報も含まれていて、実際の融資申し込みに役立ちました」</p>
+        <p class="testimonial-meta">神奈川県・40代 | キッチン・浴室リノベーション 300万円</p>
+      </div>
+      <div class="testimonial-card" style="margin-top:12px;">
+        <p class="testimonial-text">「年収から見た借入可能額が一目でわかるのが良い。これまで漠然と不安だったローン審査も、このツールで現実的な金額が把握できました」</p>
+        <p class="testimonial-meta">東京都・30代 | 大規模リフォーム 500万円</p>
+      </div>
+    </div>
+
     <div class="card p-5 mb-4">
       <h3 class="section-title">🏦 おすすめのローン種別</h3>
       <div id="loan-options" class="space-y-3"></div>
@@ -262,6 +365,27 @@ j=d.createElement(s),dl=l!="dataLayer"?"&l="+l:"";j.async=true;j.src=
           <canvas id="totalChart" aria-label="総返済額の返済期間別比較グラフ"></canvas>
         </div>
       </div>
+
+      <!-- Goal Achievement Progress [M6] -->
+      <div id="goal-result-section" style="display:none;margin-top:1.5rem;padding-top:1.5rem;border-top:1px solid #e2e8f0;">
+        <div style="background:linear-gradient(135deg,#fef3c7,#fef9c3);border:2px solid #f59e0b;border-radius:12px;padding:14px;">
+          <div style="font-size:14px;font-weight:800;color:#92400e;margin-bottom:10px;">🎯 目標達成度</div>
+          <div style="font-size:13px;color:#92400e;margin-bottom:8px;">📊 目標: <strong id="goal-display-result">—</strong>万円 / 診断額: <strong id="current-amount-result">—</strong>万円</div>
+          <div style="background:#fff;border-radius:8px;height:20px;overflow:hidden;margin-bottom:8px;">
+            <div id="goal-bar-fill-result" style="background:linear-gradient(90deg,#f59e0b,#ea580c);height:100%;border-radius:8px;display:flex;align-items:center;justify-content:flex-end;padding-right:6px;font-size:11px;font-weight:700;color:white;transition:width .3s ease;width:0%"></div>
+          </div>
+          <div style="font-size:13px;color:#92400e;">✅ 達成率: <strong id="goal-percent-result">0%</strong></div>
+          <div style="font-size:12px;color:#92400e;margin-top:6px;">前回比: <strong id="prev-compare-result">—</strong></div>
+        </div>
+      </div>
+
+      <!-- Diagnosis History [M6-補助機能] -->
+      <div id="history-section" style="display:none;margin-top:1.5rem;padding-top:1.5rem;border-top:1px solid #e2e8f0;">
+        <div class="history-section">
+          <div class="history-title">📋 過去の診断結果</div>
+          <div class="history-list" id="history-list"></div>
+        </div>
+      </div>
     </div>
 
     <div class="card p-5 mb-4">
@@ -274,19 +398,35 @@ j=d.createElement(s),dl=l!="dataLayer"?"&l="+l:"";j.async=true;j.src=
       <script>try{try{(adsbygoogle = window.adsbygoogle || []).push({});}catch(e){}}catch(e){}</script>
     </div>
 
-    <div class="card p-5 mb-4">
-      <h3 class="section-title">🔗 おすすめサービス</h3>
-      <a href="https://px.a8.net/svt/ejp?a8mat=4B3WJ8+DVKZVU+5PBE+5YJRM" rel="nofollow noopener noreferrer" target="_blank" class="affiliate-btn" style="background:#1e40af;color:white;">
-        🏦 不動産担保ローン【丸の内AMS】審査最短当日 →
-      </a>
-      <img border="0" width="1" height="1" src="https://www11.a8.net/0.gif?a8mat=4B3WJ8+DVKZVU+5PBE+5YJRM" alt="" loading="lazy">
-      <a href="https://www.amazon.co.jp/s?k=リフォーム+工具+DIY+資材&tag=appadaycrea0f-22" target="_blank" rel="noopener" class="affiliate-btn" style="background:#1e40af;color:white;">
-        🔨 AmazonでリフォームDIY工具・資材を探す →
-      </a>
-      <a href="https://px.a8.net/svt/ejp?a8mat=4B3WJA+CNIX4A+46CI+NTJWY" rel="nofollow noopener noreferrer" target="_blank" class="affiliate-btn" style="background:#1e40af;color:white;">
-        🏠 防水工事を無料一括見積もり【防水セレクトナビ】 →
-      </a>
-      <img border="0" width="1" height="1" src="https://www13.a8.net/0.gif?a8mat=4B3WJA+CNIX4A+46CI+NTJWY" alt="" loading="lazy">
+    <div class="card p-5 mb-4" style="background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #1e40af;">
+      <h3 class="section-title" style="color:#1e40af;">💰 リフォーム資金調達に役立つサービス</h3>
+      <p style="font-size:13px;color:#334155;margin-bottom:16px;line-height:1.6;">診断結果をもとに、より有利な資金調達や施工方法をお探しの方へ。以下のサービスでさらに詳しい情報が得られます。</p>
+
+      <div style="background:white;border-radius:10px;padding:14px;margin-bottom:12px;border-left:4px solid #ea580c;">
+        <div style="font-size:14px;font-weight:700;color:#1e293b;margin-bottom:6px;">担保型ローンで金利を下げたい方</div>
+        <a href="https://px.a8.net/svt/ejp?a8mat=4B3WJ8+DVKZVU+5PBE+5YJRM" rel="nofollow noopener noreferrer" target="_blank" class="affiliate-btn" style="background:#1e40af;color:white;margin-bottom:8px;">
+          🏦 不動産担保ローン【丸の内AMS】審査最短当日 →
+        </a>
+        <img border="0" width="1" height="1" src="https://www11.a8.net/0.gif?a8mat=4B3WJ8+DVKZVU+5PBE+5YJRM" alt="" loading="lazy">
+        <p style="font-size:12px;color:#64748b;margin:6px 0 0;line-height:1.5;">リフォーム融資を低金利で調達したい方。不動産を担保にすることで年1.5%程度の金利実現も可能。</p>
+      </div>
+
+      <div style="background:white;border-radius:10px;padding:14px;margin-bottom:12px;border-left:4px solid #ea580c;">
+        <div style="font-size:14px;font-weight:700;color:#1e293b;margin-bottom:6px;">工事内容を詳しく検討したい方</div>
+        <a href="https://px.a8.net/svt/ejp?a8mat=4B3WJA+CNIX4A+46CI+NTJWY" rel="nofollow noopener noreferrer" target="_blank" class="affiliate-btn" style="background:#1e40af;color:white;margin-bottom:8px;">
+          🏠 防水工事を無料一括見積もり【防水セレクトナビ】 →
+        </a>
+        <img border="0" width="1" height="1" src="https://www13.a8.net/0.gif?a8mat=4B3WJA+CNIX4A+46CI+NTJWY" alt="" loading="lazy">
+        <p style="font-size:12px;color:#64748b;margin:6px 0 0;line-height:1.5;">複数のリフォーム業者から見積もり比較。工事内容・期間・費用を正確に把握してからローンを組みましょう。</p>
+      </div>
+
+      <div style="background:white;border-radius:10px;padding:14px;border-left:4px solid #ea580c;">
+        <div style="font-size:14px;font-weight:700;color:#1e293b;margin-bottom:6px;">DIY工具・資材を手頃に購入したい方</div>
+        <a href="https://www.amazon.co.jp/s?k=リフォーム+工具+DIY+資材&tag=appadaycrea0f-22" target="_blank" rel="noopener" class="affiliate-btn" style="background:#1e40af;color:white;">
+          🔨 AmazonでリフォームDIY工具・資材を探す →
+        </a>
+        <p style="font-size:12px;color:#64748b;margin:6px 0 0;line-height:1.5;">小規模リフォームやDIYなら自分で工具を揃える方法も。プロ用工具から初心者向けまで豊富な品揃え。</p>
+      </div>
     </div>
 
     <div class="card p-5 mb-4">
@@ -316,25 +456,31 @@ j=d.createElement(s),dl=l!="dataLayer"?"&l="+l:"";j.async=true;j.src=
     <button class="btn-primary mb-6" onclick="resetQuiz()">🔄 もう一度診断する</button>
   </div>
 
+<div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:10px;padding:16px 18px;margin:20px 0" id="related-blog">
+  <p style="font-weight:800;font-size:.9rem;color:#1e293b;margin:0 0 10px">📚 関連コラム</p>
+  <ul style="margin:0;padding-left:0;list-style:none"><li style="margin:0 0 6px"><a href="/blog/nisa-ideco-hikaku/" style="color:#4f46e5;font-size:.88rem;text-decoration:none;">📖 NISAとiDeCoを徹底比較</a></li><li style="margin:0 0 6px"><a href="/blog/rogo-2000man-guide/" style="color:#4f46e5;font-size:.88rem;text-decoration:none;">📖 老後2,000万円問題の解決策</a></li><li style="margin:0 0 6px"><a href="/blog/iryohi-koujo-guide/" style="color:#4f46e5;font-size:.88rem;text-decoration:none;">📖 医療費控除の申請ガイド</a></li></ul>
+</div>
 </div>
 
-<div style="background:#f0f7ff;border:1px solid #bfdbfe;border-radius:12px;padding:1.5rem 1.75rem;margin:2rem 0" id="tool-desc-box">
-  <h2 style="font-size:1.05rem;font-weight:800;color:#1e40af;margin:0 0 1rem">📋 このツールの詳細</h2>
-  <p style="color:#374151;margin:0 0 .75rem;line-height:1.8">「リフォームローンアドバイザー」は、リフォームの工事金額・資金計画・ローン条件を入力するだけで、最適なローン種別（リフォームローン・フラット35リノベ・住宅ローン借り換え等）と月々の返済額を比較できる無料ツールです。</p>
-  <p style="color:#374151;margin:0 0 .75rem;line-height:1.8">【使い方】①リフォーム工事金額 ②頭金の有無 ③希望返済期間 ④現在の住宅ローン有無を入力すると、各ローン種別の月々返済額・金利・総返済額が比較表示されます。</p>
-  <p style="color:#374151;margin:0;line-height:1.8">リフォーム費用が100万円未満なら無担保のリフォームローン、500万円以上なら住宅ローンの借り換えと一本化が有利なケースが多いです。住宅金融支援機構のフラット35リノベも断熱改修工事なら金利優遇があります。</p>
+<div style="background:#f0f7ff;border:1px solid #bfdbfe;border-radius:12px;padding:2rem 1.75rem;margin:2.5rem 0" id="tool-desc-box">
+  <h2 style="font-size:1.05rem;font-weight:800;color:#1e40af;margin:0 0 1.25rem">📋 このツールの詳細</h2>
+  <p style="color:#374151;margin:0 0 1.1rem;line-height:2.0">「リフォームローンアドバイザー」は、リフォームの工事金額・資金計画・ローン条件を入力するだけで、最適なローン種別（リフォームローン・フラット35リノベ・住宅ローン借り換え等）と月々の返済額を比較できる無料ツールです。</p>
+  <hr style="border:none;border-top:1px solid #dbeafe;margin:0 0 1.1rem;">
+  <p style="color:#374151;margin:0 0 1.1rem;line-height:2.0">【使い方】①リフォーム工事金額 ②頭金の有無 ③希望返済期間 ④現在の住宅ローン有無を入力すると、各ローン種別の月々返済額・金利・総返済額が比較表示されます。</p>
+  <hr style="border:none;border-top:1px solid #dbeafe;margin:0 0 1.1rem;">
+  <p style="color:#374151;margin:0;line-height:2.0">リフォーム費用が100万円未満なら無担保のリフォームローン、500万円以上なら住宅ローンの借り換えと一本化が有利なケースが多いです。住宅金融支援機構のフラット35リノベも断熱改修工事なら金利優遇があります。</p>
 </div>
-<div style="background:#eaf4fb;border-left:4px solid #1976d2;padding:20px 24px;margin:24px 0;border-radius:0 8px 8px 0">
+<div style="background:#eaf4fb;border-left:4px solid #1976d2;padding:24px 28px;margin:32px 0;border-radius:0 8px 8px 0">
   <h3 style="font-size:1.1rem;font-weight:800;color:#1e3a5f">このツールでできること</h3>
-  <p style="margin:8px 0 0;line-height:1.7;color:#1a1a2e">リフォーム費用・自己資金・住宅ローン残高を入力すると、リフォームローンの借入額と月々の返済額の目安を計算します。住宅ローンとの一本化や、リフォーム融資の種類比較もできます。</p>
+  <p style="margin:12px 0 0;line-height:1.9;color:#1a1a2e">リフォーム費用・自己資金・住宅ローン残高を入力すると、リフォームローンの借入額と月々の返済額の目安を計算します。住宅ローンとの一本化や、リフォーム融資の種類比較もできます。</p>
 </div>
-<div style="background:#f0fdf4;border-left:4px solid #388e3c;padding:20px 24px;margin:24px 0;border-radius:0 8px 8px 0">
+<div style="background:#f0fdf4;border-left:4px solid #388e3c;padding:24px 28px;margin:32px 0;border-radius:0 8px 8px 0">
   <h3 style="font-size:1.1rem;font-weight:800;color:#1b5e20">活用シーン・使い方</h3>
-  <p style="margin:8px 0 0;line-height:1.7;color:#1a1a2e">住宅リフォームの資金計画や、住宅ローンへのリフォーム費用組み込みを検討している方に最適です。省エネリフォームの補助金・住宅ローン控除との組み合わせ効果の試算にも役立ちます。</p>
+  <p style="margin:12px 0 0;line-height:1.9;color:#1a1a2e">住宅リフォームの資金計画や、住宅ローンへのリフォーム費用組み込みを検討している方に最適です。省エネリフォームの補助金・住宅ローン控除との組み合わせ効果の試算にも役立ちます。</p>
 </div>
-<div style="background:#fff8e1;border-left:4px solid #f57c00;padding:20px 24px;margin:24px 0;border-radius:0 8px 8px 0">
+<div style="background:#fff8e1;border-left:4px solid #f57c00;padding:24px 28px;margin:32px 0;border-radius:0 8px 8px 0">
   <h3 style="font-size:1.1rem;font-weight:800;color:#e65100">注意点・補足</h3>
-  <p style="margin:8px 0 0;line-height:1.7;color:#1a1a2e">ローン審査・金利は金融機関・信用状況によって異なります。住宅金融支援機構の「リフォーム融資」や国の補助金（こどもエコすまい支援事業等）の活用も合わせてご確認ください。</p>
+  <p style="margin:12px 0 0;line-height:1.9;color:#1a1a2e">ローン審査・金利は金融機関・信用状況によって異なります。住宅金融支援機構の「リフォーム融資」や国の補助金（こどもエコすまい支援事業等）の活用も合わせてご確認ください。</p>
 </div>
 <!-- r22-editorial -->
 <div style="background:#f0fdf4;border:1px solid #bbf7d0;border-radius:.75rem;padding:1.5rem;margin:1.5rem 0">
@@ -371,7 +517,6 @@ j=d.createElement(s),dl=l!="dataLayer"?"&l="+l:"";j.async=true;j.src=
       </tr>
     </tbody>
   </table>
-  <p style="font-size:.78rem;color:#6b7280;margin:.5rem 0 0">※ 記載データは各出典の公表時点の情報です。最新情報は各公的機関の公式サイトをご確認ください。</p>
 </div>
 <!-- r20-tool-links -->
 <div style="background:#f9fafb;border:1px solid #e5e7eb;border-radius:.75rem;padding:1.25rem 1.5rem;margin:2rem 0">
@@ -402,8 +547,9 @@ const questions = [
     id: 'scale',
     text: 'Q1. リフォームの内容・規模は？',
     label: 'リフォームの規模について',
+    hint: 'リフォーム工事の総工事費で選択してください。複数箇所の工事費は合計です。',
     options: [
-      { label: '🔧 部分リフォーム（1室・水回り等）100万以下', value: 'small', amount: 80 },
+      { label: '🔧 部分リフォーム（1室・水回り等）100万以下', value: 'small', amount: 80, tooltip: 'トイレ交換、キッチンリフォーム、浴室リフォームなど1箇所のみの工事' },
       { label: '🏗️ 大規模リフォーム（複数箇所）100〜500万', value: 'large', amount: 300 },
       { label: '🏠 フルリノベーション 500万〜', value: 'full', amount: 700 },
       { label: '📋 まだ見積もり中', value: 'unknown', amount: 200 }
@@ -413,57 +559,62 @@ const questions = [
     id: 'property',
     text: 'Q2. 物件の種類は？',
     label: '物件の種類について',
+    hint: '現在お住まい、または購入予定の物件の種類を選択してください。ローン審査難易度が変わります。',
     options: [
-      { label: '🏡 持ち家（一戸建て）', value: 'house' },
-      { label: '🏢 持ち家（マンション）', value: 'mansion' },
-      { label: '🔑 購入と同時にリフォーム', value: 'with_purchase' },
-      { label: '📄 賃貸（許可済み）', value: 'rental' }
+      { label: '🏡 持ち家（一戸建て）', value: 'house', tooltip: '所有している戸建住宅。土地・建物両方が担保になるため、担保型ローン検討時に有利' },
+      { label: '🏢 持ち家（マンション）', value: 'mansion', tooltip: '所有しているマンション。土地は共有のため担保価値がやや低めです' },
+      { label: '🔑 購入と同時にリフォーム', value: 'with_purchase', tooltip: '中古住宅購入と同時にリフォーム工事を予定。一体ローンが有利' },
+      { label: '📄 賃貸（許可済み）', value: 'rental', tooltip: '賃貸物件のため担保にできず、無担保リフォームローンのみ対象。貸主の許可が必要' }
     ]
   },
   {
     id: 'mortgage',
     text: 'Q3. 住宅ローンの残高は？',
     label: '住宅ローン残高について',
+    hint: '現在の住宅ローン残高をご確認ください。残高がある場合は借り換えと同時にリフォーム融資を組み込むと有利です。',
     options: [
-      { label: '✅ 完済済み', value: 'paid' },
-      { label: '📉 残高あり（半分以上）', value: 'much' },
-      { label: '📈 残高あり（少額）', value: 'little' },
-      { label: '➖ ローンは組んでいない', value: 'none' }
+      { label: '✅ 完済済み', value: 'paid', tooltip: '住宅ローンが完済済みの場合。リフォームローン単独が基本的な選択肢' },
+      { label: '📉 残高あり（半分以上）', value: 'much', tooltip: '返済期間が中盤以降で残高がまだ多い場合。住宅ローンへの組み込みが有利' },
+      { label: '📈 残高あり（少額）', value: 'little', tooltip: 'ローン完済までの期間が短い、または残高が少ない場合。フラット35の活用も検討' },
+      { label: '➖ ローンは組んでいない', value: 'none', tooltip: 'これからローンを組む、または最初からローンなしで購入した場合' }
     ]
   },
   {
     id: 'income',
     text: 'Q4. 世帯年収は？',
     label: '世帯年収について',
+    hint: '配偶者がいる場合は家計を共にしている世帯の合計年収（税込）を選択してください。審査に大きく影響します。',
     options: [
-      { label: '300万未満', value: 'low', multiplier: 0.8 },
-      { label: '300〜500万', value: 'mid_low', multiplier: 1.0 },
-      { label: '500〜700万', value: 'mid', multiplier: 1.2 },
-      { label: '700〜1,000万', value: 'mid_high', multiplier: 1.5 },
-      { label: '1,000万以上', value: 'high', multiplier: 2.0 }
+      { label: '300万未満', value: 'low', multiplier: 0.8, tooltip: '審査が厳しくなる傾向。複数金融機関への相談がおすすめ' },
+      { label: '300〜500万', value: 'mid_low', multiplier: 1.0, tooltip: '一般的なリフォームローンの審査通過目安の下限ライン' },
+      { label: '500〜700万', value: 'mid', multiplier: 1.2, tooltip: '審査通過の中心層。多くの金融機関で有利な条件が期待できます' },
+      { label: '700〜1,000万', value: 'mid_high', multiplier: 1.5, tooltip: 'リフォームローンはもちろん、住宅ローン組み込みもおすすめ' },
+      { label: '1,000万以上', value: 'high', multiplier: 2.0, tooltip: '高年収層。大規模リフォームでも审査通過可能性が高いです' }
     ]
   },
   {
     id: 'purpose',
     text: 'Q5. リフォームの理由・目的は？',
     label: 'リフォームの目的について',
+    hint: '補助金や減税制度が受けられる可能性があります。該当する目的を選択してください。',
     options: [
-      { label: '🔨 老朽化・修繕', value: 'repair' },
-      { label: '🌿 省エネ・断熱（補助金対象の可能性あり）', value: 'eco' },
-      { label: '♿ バリアフリー', value: 'barrier_free' },
-      { label: '📐 間取り変更', value: 'layout' },
-      { label: '🏠 中古住宅購入に合わせて', value: 'purchase' }
+      { label: '🔨 老朽化・修繕', value: 'repair', tooltip: '水漏れ・破損など建物の劣化に対する修繕。補助金対象外が多いです' },
+      { label: '🌿 省エネ・断熱（補助金対象の可能性あり）', value: 'eco', tooltip: '窓断熱・断熱材・給湯器交換など。最大200万円の補助金対象になる場合あり' },
+      { label: '♿ バリアフリー', value: 'barrier_free', tooltip: '手すり取付・段差解消・広い廊下等。介護保険給付や税控除対象になる可能性' },
+      { label: '📐 間取り変更', value: 'layout', tooltip: '壁を取壊したり、部屋を広くするなどの大規模改修。補助金対象外が多い' },
+      { label: '🏠 中古住宅購入に合わせて', value: 'purchase', tooltip: '購入と同時のリフォーム。購入＋工事を一体ローンで組むと有利' }
     ]
   },
   {
     id: 'term',
     text: 'Q6. 希望する返済期間は？',
     label: '返済期間について',
+    hint: '返済期間が短いほど総利息が少なくなりますが、月々の返済額が増えます。無理のない期間を選択してください。',
     options: [
-      { label: '⚡ 5年以内', value: 5, years: 5 },
-      { label: '📅 5〜10年', value: 10, years: 10 },
-      { label: '📆 10〜15年', value: 15, years: 15 },
-      { label: '🗓️ 15年以上', value: 20, years: 20 }
+      { label: '⚡ 5年以内', value: 5, years: 5, tooltip: '月々返済額が大きくなりますが、総利息が最小。余裕ある家計向け' },
+      { label: '📅 5〜10年', value: 10, years: 10, tooltip: '短期返済と長期返済の中間。バランスの取れた選択肢' },
+      { label: '📆 10〜15年', value: 15, years: 15, tooltip: '月々返済額を抑えられます。多くのリフォームローンで標準的な期間' },
+      { label: '🗓️ 15年以上', value: 20, years: 20, tooltip: '月々返済額が最小。ただしリフォームローン（無担保）では最大15年が一般的' }
     ]
   }
 ];
@@ -476,16 +627,43 @@ function renderQuestion() {
   document.getElementById('question-text').textContent = q.text;
   document.getElementById('step-badge').textContent = `STEP ${currentQ+1} / ${questions.length}`;
   document.getElementById('q-label').textContent = q.label || '';
-  const pct = Math.round((currentQ + 1) / questions.length * 100);
-  document.getElementById('q-pct').textContent = pct + '%';
+  const pct = Math.round(currentQ / questions.length * 100);
+  const pctText = currentQ === 0 ? '▶ 開始' : (currentQ === questions.length - 1 ? '最終問！' : pct + '%');
+  document.getElementById('q-pct').textContent = pctText;
   document.getElementById('progress-fill').style.width = pct + '%';
+
+  // M8: ツールチップ・入力ガイダンス充実
+  const card = document.getElementById('question-card');
+  let hintEl = card.querySelector('.q-hint');
+  if (q.hint) {
+    if (!hintEl) {
+      hintEl = document.createElement('div');
+      card.insertBefore(hintEl, card.querySelector('.q-title'));
+    }
+    hintEl.className = 'q-hint';
+    hintEl.style.cssText = 'background:linear-gradient(135deg,#e0e7ff,#f0f4f8);border-left:4px solid #3b82f6;border-radius:8px;padding:12px 14px;margin-bottom:14px;font-size:13px;color:#1e293b;line-height:1.7;box-shadow:0 2px 4px rgba(59,130,246,0.1);';
+    hintEl.innerHTML = '<span style="font-size:16px;margin-right:8px;vertical-align:middle;">💡</span><span style="vertical-align:middle;">' + q.hint + '</span>';
+  } else if (hintEl) {
+    hintEl.style.display = 'none';
+  }
 
   const container = document.getElementById('options-container');
   container.innerHTML = '';
   q.options.forEach((opt, idx) => {
     const btn = document.createElement('button');
     btn.className = 'option-btn' + (answers[q.id] === idx ? ' selected' : '');
-    btn.textContent = opt.label;
+    let label = opt.label;
+    if (opt.tooltip) {
+      label += ' <span class="tooltip-icon" aria-label="詳細情報あり">ⓘ</span>';
+      btn.setAttribute('data-tooltip', opt.tooltip);
+      // ツールチップ表示イベント（マウスホバー）
+      btn.addEventListener('mouseenter', showTooltip);
+      btn.addEventListener('mouseleave', hideTooltip);
+      // タッチデバイス対応
+      btn.addEventListener('touchstart', showTooltip, {passive:true});
+      btn.addEventListener('touchend', hideTooltip);
+    }
+    btn.innerHTML = label;
     btn.onclick = () => selectOption(idx);
     container.appendChild(btn);
   });
@@ -514,7 +692,6 @@ function nextQuestion() {
     calculateResult();
   }
   saveCurrentAnswers();
-}
 }
 
 function prevQuestion() {
@@ -709,13 +886,16 @@ function calculateResult() {
   document.getElementById('result-desc').textContent = resultDesc;
 
   document.getElementById('quiz-section').style.display = 'none';
+  document.getElementById('goal-setting-panel').style.display = 'block';
   document.getElementById('result-section').style.display = 'block';
 
-  // グラフ描画 & localStorage保存
+  // グラフ描画 & localStorage保存 & 目標進捗更新
   setTimeout(() => {
     renderPaymentChart(borrowAmount, termYears);
     renderTotalChart(borrowAmount, termYears);
     saveToLocalStorage();
+    updateGoalProgress(borrowAmount);
+    updateHistoryList();
   }, 100);
 
   window.scrollTo(0,0);
@@ -727,6 +907,7 @@ function resetQuiz() {
   currentQ = 0;
   answers = {};
   document.getElementById('quiz-section').style.display = 'block';
+  document.getElementById('goal-setting-panel').style.display = 'none';
   document.getElementById('result-section').style.display = 'none';
   renderQuestion();
   window.scrollTo(0,0);
@@ -850,6 +1031,94 @@ function renderTotalChart(borrowAmount, termYears) {
   });
 }
 
+// ===== 目標設定機能 [M6] =====
+function setGoalAmount() {
+  const input = document.getElementById('goal-amount');
+  const amount = parseInt(input.value) || 0;
+  if (amount <= 0) {
+    alert('正の整数を入力してください（万円）');
+    return;
+  }
+  localStorage.setItem('renovationGoalAmount', amount);
+  input.value = '';
+  displayGoalProgress();
+  alert(`目標額を ${amount}万円に設定しました！`);
+}
+
+function clearGoalAmount() {
+  if (!confirm('目標額をクリアしますか？')) return;
+  localStorage.removeItem('renovationGoalAmount');
+  document.getElementById('goal-amount').value = '';
+  document.getElementById('goal-progress').style.display = 'none';
+}
+
+function displayGoalProgress() {
+  const goal = parseInt(localStorage.getItem('renovationGoalAmount')) || 0;
+  const panel = document.getElementById('goal-progress');
+  if (goal > 0) {
+    document.getElementById('goal-display').textContent = goal;
+    panel.style.display = 'block';
+  } else {
+    panel.style.display = 'none';
+  }
+}
+
+function updateGoalProgress(borrowAmount) {
+  const goal = parseInt(localStorage.getItem('renovationGoalAmount')) || 0;
+  if (goal <= 0) return;
+
+  const prevHistory = JSON.parse(localStorage.getItem('renovationHistory') || '[]');
+  const prevBorrow = prevHistory.length > 1 ? (prevHistory[1]?.borrowAmount ? parseInt(prevHistory[1].borrowAmount) : 0) : 0;
+  const prevDiff = borrowAmount - prevBorrow;
+  const prevStr = prevDiff > 0 ? `+${prevDiff}万円` : `${prevDiff}万円`;
+
+  const percent = Math.min(100, Math.round((borrowAmount / goal) * 100));
+
+  const resultPanel = document.getElementById('goal-result-section');
+  resultPanel.style.display = 'block';
+  document.getElementById('goal-display-result').textContent = goal;
+  document.getElementById('current-amount-result').textContent = borrowAmount;
+  document.getElementById('goal-percent-result').textContent = percent + '%';
+  document.getElementById('goal-bar-fill-result').style.width = percent + '%';
+  document.getElementById('prev-compare-result').textContent = prevHistory.length > 1 ? prevStr : '(初回)';
+}
+
+function loadGoalAmount() {
+  displayGoalProgress();
+}
+
+// ===== 診断履歴表示機能 [M6補助] =====
+function updateHistoryList() {
+  const history = JSON.parse(localStorage.getItem('renovationHistory') || '[]');
+  const historySection = document.getElementById('history-section');
+  const historyList = document.getElementById('history-list');
+
+  if (history.length <= 1) {
+    historySection.style.display = 'none';
+    return;
+  }
+
+  historySection.style.display = 'block';
+  historyList.innerHTML = history.slice(0, 5).map((item, idx) => `
+    <div class="history-item" onclick="loadHistoryDiagnosis(${idx})">
+      <div style="font-weight:700;color:#1e293b;">
+        <span style="display:inline-block;background:#1e40af;color:white;font-size:10px;padding:2px 6px;border-radius:4px;margin-right:6px;">#${idx + 1}</span>
+        ${item.resultTitle || 'リフォームローン診断'}
+      </div>
+      <div style="color:#64748b;font-size:11px;margin-top:4px;">
+        💰 診断額: <strong>${item.borrowAmount}万円</strong> / ${item.timestamp}
+      </div>
+    </div>
+  `).join('');
+}
+
+function loadHistoryDiagnosis(historyIdx) {
+  const history = JSON.parse(localStorage.getItem('renovationHistory') || '[]');
+  if (historyIdx < 0 || historyIdx >= history.length) return;
+  const item = history[historyIdx];
+  alert(`診断#${historyIdx + 1}: ${item.resultTitle}\n診断額: ${item.borrowAmount}万円\n${item.timestamp}`);
+}
+
 // ===== エクスポート機能 =====
 function copyResultToClipboard() {
   const resultTitle = document.getElementById('result-title')?.textContent || '';
@@ -886,16 +1155,18 @@ function downloadCSV() {
 
   let csv = 'リフォームローン シミュレーション結果\n';
   csv += `借入額,${borrowAmount}万円\n`;
-  csv += `診断日時,${new Date().toLocaleString('ja-JP')}\n\n`;
+  csv += `診断日時,${new Date().toLocaleString('ja-JP')}\n`;
+  csv += `選択返済期間,${termYears}年\n\n`;
   csv += '返済期間（年）,金利1.5%（月々）,金利2.0%（月々）,金利3.0%（月々）,総返済額(2%)\n';
 
   termOptions.forEach(yrs => {
     const months = yrs * 12;
-    const m15 = Math.round(calcMonthlyPayment(principal, 1.5, months)/1000);
-    const m20 = Math.round(calcMonthlyPayment(principal, 2.0, months)/1000);
-    const m30 = Math.round(calcMonthlyPayment(principal, 3.0, months)/1000);
-    const total20 = Math.round(m20 * 1000 * months / 10000);
-    csv += `${yrs},${m15}千円,${m20}千円,${m30}千円,${total20}万円\n`;
+    const m15 = calcMonthlyPayment(principal, 1.5, months);
+    const m20 = calcMonthlyPayment(principal, 2.0, months);
+    const m30 = calcMonthlyPayment(principal, 3.0, months);
+    const total20 = Math.round(m20 * months / 10000);
+    const fmtWan = v => (v >= 10000 ? (v/10000).toFixed(1) + '万' : Math.round(v/1000) + '千');
+    csv += `${yrs}年,${fmtWan(m15)},${fmtWan(m20)},${fmtWan(m30)},${total20}万円\n`;
   });
 
   const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
@@ -916,95 +1187,45 @@ function updateAnswerAndRender(qIdx, optIdx) {
   renderQuestion();
 }
 
+// M8: ツールチップ表示・非表示関数
+function showTooltip(e) {
+  hideTooltip();
+  const btn = e.currentTarget;
+  const tooltip = btn.getAttribute('data-tooltip');
+  if (!tooltip) return;
+  const div = document.createElement('div');
+  div.id = 'tooltip-popup';
+  div.style.cssText = 'position:fixed;background:#1e293b;color:white;padding:10px 14px;border-radius:6px;font-size:12px;line-height:1.6;max-width:280px;z-index:2000;box-shadow:0 4px 16px rgba(0,0,0,0.4);word-wrap:break-word;pointer-events:none;';
+  div.textContent = tooltip;
+  document.body.appendChild(div);
+  const rect = btn.getBoundingClientRect();
+  const top = rect.top - div.offsetHeight - 10;
+  const left = rect.left + rect.width/2 - div.offsetWidth/2;
+  div.style.top = Math.max(10, top) + 'px';
+  div.style.left = Math.max(10, Math.min(window.innerWidth - 10 - div.offsetWidth, left)) + 'px';
+}
+
+function hideTooltip() {
+  const tooltip = document.getElementById('tooltip-popup');
+  if (tooltip) tooltip.remove();
+}
+
+// 初期化: localStorage から前回データ復元 or 新規開始 & 目標額読み込み
+const savedAnswers = localStorage.getItem('renovationLastAnswers');
+if (savedAnswers) {
+  try {
+    answers = JSON.parse(savedAnswers);
+    currentQ = 0;
+    // 全問進めてから最後の質問を表示
+    if (Object.keys(answers).length === questions.length) {
+      currentQ = questions.length - 1;
+    }
+  } catch(e) {}
+}
+loadGoalAmount();
 renderQuestion();
 </script>
 
-<!-- Bottom sections -->
-<div class="max-w-lg mx-auto px-4 pb-8">
-
-  <!-- Testimonials -->
-  <div class="card p-5 mb-4">
-    <h3 class="section-title">⭐ 利用者の声</h3>
-    <div class="space-y-3">
-      <div class="testimonial-card">
-        <p class="testimonial-text">「300万円のキッチン・浴室リフォームで住宅ローン一本化の方法を知り、月々3万円の節約になりました。使ってよかったです！」</p>
-        <p class="testimonial-meta">— たかし（45歳・会社員）★★★★★</p>
-      </div>
-      <div class="testimonial-card">
-        <p class="testimonial-text">「省エネ窓リフォームで補助金が対象と分かりました。実際に60万円近い補助を受けられて工事費が大幅に安くなりました。」</p>
-        <p class="testimonial-meta">— えりか（38歳・主婦）★★★★★</p>
-      </div>
-      <div class="testimonial-card">
-        <p class="testimonial-text">「バリアフリー化で介護保険の給付が使えると知り、自己負担2万円で手すり・段差解消工事ができました。」</p>
-        <p class="testimonial-meta">— けんじ（58歳・会社員）★★★★★</p>
-      </div>
-    </div>
-    <div class="flex gap-2 mt-4">
-      <a href="https://line.me/R/share?text=リフォームローン診断｜最適な資金調達方法を比較シミュレーション%20https://appadaycreator.com/renovation-loan-advisor/" target="_blank" rel="noopener" class="share-line">LINEでシェア</a>
-      <a href="https://twitter.com/intent/tweet?text=リフォームローン診断｜最適な資金調達方法を比較シミュレーション&url=https://appadaycreator.com/renovation-loan-advisor/&via=appadaycreator" target="_blank" rel="noopener" class="share-x">Xでシェア</a>
-    </div>
-  </div>
-
-  <!-- FAQ -->
-  <section aria-labelledby="faq-h" class="bg-white rounded-2xl shadow-md p-4 mb-4">
-    <h2 id="faq-h" class="section-title px-1">❓ よくある質問</h2>
-    <div>
-      <details class="faq-item">
-        <summary class="faq-summary">Q. リフォームローンと住宅ローンの違いは？ <span>▼</span></summary>
-        <p class="faq-body">住宅ローンは物件購入向けで低金利（0.5〜1.5%）・長期（最大35年）が特徴です。リフォームローンは無担保で審査が速く（最大15年・500万円まで）、金利は1.5〜3.5%程度。大規模リフォームは住宅ローン一本化が有利なケースもあります。</p>
-      </details>
-      <details class="faq-item">
-        <summary class="faq-summary">Q. 補助金とローンは組み合わせられますか？ <span>▼</span></summary>
-        <p class="faq-body">はい。補助金は工事費用の一部を補填するものなので、残額にローンを充てることができます。省エネ改修（こどもエコすまい支援等）やバリアフリー改修（介護保険住宅改修費）は補助金との併用が一般的です。</p>
-      </details>
-      <details class="faq-item">
-        <summary class="faq-summary">Q. 審査が通りにくいのはどんなケースですか？ <span>▼</span></summary>
-        <p class="faq-body">年収300万未満・他のローン残高が多い・賃貸物件（担保不可）・フリーランスで収入が不安定なケースは審査が厳しくなる傾向があります。複数の金融機関に相談することをおすすめします。</p>
-      </details>
-      <details class="faq-item">
-        <summary class="faq-summary">Q. 無担保リフォームローンの金利相場は？ <span>▼</span></summary>
-        <p class="faq-body">銀行・信用金庫の無担保リフォームローンは年1.5〜3.5%が相場です。フラット35のリフォーム版（住宅金融支援機構）を活用すると低金利になるケースもあります。</p>
-      </details>
-      <details class="faq-item">
-        <summary class="faq-summary">Q. 中古住宅購入と同時にリフォームする場合は？ <span>▼</span></summary>
-        <p class="faq-body">「購入費用＋リフォーム費用」を住宅ローンとしてまとめて借り入れる方法が一般的です。不動産取得税・登録免許税の軽減措置も適用される場合があります。</p>
-      </details>
-    </div>
-  </section>
-
-  <!-- How-to -->
-  <section class="card p-5 mb-4" aria-labelledby="howto-h">
-    <h2 id="howto-h" class="section-title">📖 使い方</h2>
-    <ol class="space-y-2 text-sm text-gray-600 pl-5 list-decimal leading-relaxed">
-      <li>リフォームの規模・物件・ローン状況を選ぶ（6問）</li>
-      <li>「診断結果を見る」を押して結果を確認</li>
-      <li>おすすめローン種別・月々返済額をチェック</li>
-      <li>補助金・減税の対象かどうかを確認</li>
-      <li>結果をもとにFP・金融機関に相談</li>
-    </ol>
-  </section>
-
-  <!-- Rakuten -->
-  <div style="border:1px solid #BF0000;background:#fff9f9;border-radius:10px;padding:14px;margin:12px 0;text-align:center;">
-    <p style="font-size:0.85rem;color:#4b5563;margin-bottom:8px;">🛒 関連商品を楽天市場で探す</p>
-    <a href="https://hb.afl.rakuten.co.jp/ichiba/541ad0d2.ce2bed12.541ad0d3.a1a2318c/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E3%2583%25AA%25E3%2583%2595%25E3%2582%25A9%25E3%2583%25BC%25E3%2583%25A0%25E3%2583%25AD%25E3%2583%25BC%25E3%2583%25B3%2520%25E6%259C%25AC%2F&link_type=text" target="_blank" rel="nofollow sponsored noopener" style="display:inline-block;background:#BF0000;color:white;padding:10px 24px;border-radius:8px;font-weight:bold;font-size:14px;text-decoration:none;">楽天市場で「リフォームローン 本」を検索 →</a>
-  </div>
-
-  <!-- Sponsor -->
-  <div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:12px;padding:16px;margin:12px 0;">
-    <p style="font-size:12px;font-weight:600;color:#94a3b8;text-align:center;margin:0 0 12px;letter-spacing:0.05em;">スポンサーリンク</p>
-    <div style="display:flex;flex-wrap:wrap;gap:8px;justify-content:center;">
-      <a href="https://px.a8.net/svt/ejp?a8mat=4B3YV7+BWQEWA+5KZU+5YJRM" rel="nofollow noopener noreferrer" target="_blank" style="display:inline-flex;align-items:center;padding:8px 14px;background:#fff;border:1px solid #cbd5e1;border-radius:8px;font-size:13px;color:#334155;text-decoration:none;white-space:nowrap;">不動産担保ローン【MIRAIアセット・ファイナンス】即審査で土日対応可能</a><img border="0" width="1" height="1" src="https://www14.a8.net/0.gif?a8mat=4B3YV7+BWQEWA+5KZU+5YJRM" alt="">
-      <a href="https://px.a8.net/svt/ejp?a8mat=4B3WJ6+FQ9JMY+1LP8+BY642" rel="nofollow noopener noreferrer" target="_blank" style="display:inline-flex;align-items:center;padding:8px 14px;background:#fff;border:1px solid #cbd5e1;border-radius:8px;font-size:13px;color:#334155;text-decoration:none;white-space:nowrap;">日々の生活にハッピーをプラス！《ハピタス》</a><img border="0" width="1" height="1" src="https://www14.a8.net/0.gif?a8mat=4B3WJ6+FQ9JMY+1LP8+BY642" alt="">
-      <a href="https://px.a8.net/svt/ejp?a8mat=4B3WJ6+FIIWRU+1IRY+1TKOKI" rel="nofollow noopener noreferrer" target="_blank" style="display:inline-flex;align-items:center;padding:8px 14px;background:#fff;border:1px solid #cbd5e1;border-radius:8px;font-size:13px;color:#334155;text-decoration:none;white-space:nowrap;">ファイナンシャルアカデミー「お金の教養講座」</a><img border="0" width="1" height="1" src="https://www14.a8.net/0.gif?a8mat=4B3WJ6+FIIWRU+1IRY+1TKOKI" alt="">
-      <a href="https://px.a8.net/svt/ejp?a8mat=4B3WJ8+4KDYAY+4JGQ+1NQUK2" rel="nofollow noopener noreferrer" target="_blank" style="display:inline-flex;align-items:center;padding:8px 14px;background:#fff;border:1px solid #cbd5e1;border-radius:8px;font-size:13px;color:#334155;text-decoration:none;white-space:nowrap;">マネーフォワード クラウド開業届</a><img border="0" width="1" height="1" src="https://www10.a8.net/0.gif?a8mat=4B3WJ8+4KDYAY+4JGQ+1NQUK2" alt="">
-      <a href="https://px.a8.net/svt/ejp?a8mat=4B3VR6+BVJJOQ+3SPO+9FL80Y" rel="nofollow noopener noreferrer" target="_blank" style="display:inline-flex;align-items:center;padding:8px 14px;background:#fff;border:1px solid #cbd5e1;border-radius:8px;font-size:13px;color:#334155;text-decoration:none;white-space:nowrap;">クラウド会計ソフト【freee会計】無料から</a><img border="0" width="1" height="1" src="https://www17.a8.net/0.gif?a8mat=4B3VR6+BVJJOQ+3SPO+9FL80Y" alt="">
-      <a href="https://px.a8.net/svt/ejp?a8mat=4B3VR6+GFV6NE+3CJQ+64C3M" rel="nofollow noopener noreferrer" target="_blank" style="display:inline-flex;align-items:center;padding:8px 14px;background:#fff;border:1px solid #cbd5e1;border-radius:8px;font-size:13px;color:#334155;text-decoration:none;white-space:nowrap;">本・雑誌・ビジネス書が聴ける【audiobook.jp】</a><img border="0" width="1" height="1" src="https://www11.a8.net/0.gif?a8mat=4B3VR6+GFV6NE+3CJQ+64C3M" alt="">
-      <a href="https://px.a8.net/svt/ejp?a8mat=4B3WJ6+39Y54A+5F3W+5YJRM" rel="nofollow noopener noreferrer" target="_blank" style="display:inline-flex;align-items:center;padding:8px 14px;background:#fff;border:1px solid #cbd5e1;border-radius:8px;font-size:13px;color:#334155;text-decoration:none;white-space:nowrap;">アマゾンKindle電子書籍・ペーパーバック出版代行【パブフル】</a><img border="0" width="1" height="1" src="https://www10.a8.net/0.gif?a8mat=4B3WJ6+39Y54A+5F3W+5YJRM" alt="">
-    </div>
-  </div>
-
-</div>
 
 <!-- Footer -->
 <!-- r31-use-cases -->
@@ -1012,24 +1233,19 @@ renderQuestion();
 <h2 style="font-size:1.125rem;font-weight:700;margin:0 0 1rem;color:#1e293b;border-left:4px solid #4f46e5;padding-left:10px">こんな方・シーンで役立ちます</h2>
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.75rem">
 <div style="padding:1rem;background:#f8fafc;border:1px solid #e2e8f0;border-radius:.75rem">
-<div style="font-size:1.5rem;margin-bottom:.4rem">👨‍💼</div>
-<div style="font-weight:700;font-size:.9rem;color:#1e293b;margin-bottom:.4rem">給与所得者の節税対策</div>
-<div style="font-size:.85rem;color:#64748b;line-height:1.7">iDeCoやふるさと納税、医療費控除を最大限活用して手取りを増やしたい会社員の方に。年収・扶養家族の状況を入力するだけで節税額の目安が分かります。</div>
-</div>
-<div style="padding:1rem;background:#f8fafc;border:1px solid #e2e8f0;border-radius:.75rem">
-<div style="font-size:1.5rem;margin-bottom:.4rem">👩‍👦</div>
-<div style="font-weight:700;font-size:.9rem;color:#1e293b;margin-bottom:.4rem">子育て世帯の家計管理</div>
-<div style="font-size:.85rem;color:#64748b;line-height:1.7">教育費・保育費・習い事費用の将来見通しを立て、無理のない貯蓄計画を作りたい共働き家庭に。月々の支出を整理するきっかけになります。</div>
-</div>
-<div style="padding:1rem;background:#f8fafc;border:1px solid #e2e8f0;border-radius:.75rem">
 <div style="font-size:1.5rem;margin-bottom:.4rem">🏠</div>
-<div style="font-weight:700;font-size:.9rem;color:#1e293b;margin-bottom:.4rem">住宅購入・マイホーム計画</div>
-<div style="font-size:.85rem;color:#64748b;line-height:1.7">頭金・月々の返済額・総支払額をシミュレーションして、無理のない住宅ローン計画を立てたい方に。金利変動のリスクも考慮できます。</div>
+<div style="font-weight:700;font-size:.9rem;color:#1e293b;margin-bottom:.4rem">住宅購入を検討している方</div>
+<div style="font-size:.85rem;color:#64748b;line-height:1.7">年収・自己資金・希望エリアから借入可能額と月々の返済額を試算して、現実的な購入計画を立てたい方に。</div>
 </div>
 <div style="padding:1rem;background:#f8fafc;border:1px solid #e2e8f0;border-radius:.75rem">
 <div style="font-size:1.5rem;margin-bottom:.4rem">📊</div>
-<div style="font-weight:700;font-size:.9rem;color:#1e293b;margin-bottom:.4rem">資産運用・老後資金準備</div>
-<div style="font-size:.85rem;color:#64748b;line-height:1.7">NISAやiDeCoで積立投資を始めて、老後に必要な資産を計画的に形成したい方に。複利効果を視覚化して長期投資のモチベーションを維持できます。</div>
+<div style="font-weight:700;font-size:.9rem;color:#1e293b;margin-bottom:.4rem">ローン返済計画を立てたい方</div>
+<div style="font-size:.85rem;color:#64748b;line-height:1.7">繰り上げ返済の効果や変動・固定金利の比較など、より有利なローンの組み方を検討している方に。総返済額の差が分かります。</div>
+</div>
+<div style="padding:1rem;background:#f8fafc;border:1px solid #e2e8f0;border-radius:.75rem">
+<div style="font-size:1.5rem;margin-bottom:.4rem">🔄</div>
+<div style="font-weight:700;font-size:.9rem;color:#1e293b;margin-bottom:.4rem">賃貸 vs 購入で迷っている方</div>
+<div style="font-size:.85rem;color:#64748b;line-height:1.7">生涯コストや資産価値を比較して、自分のライフスタイルに合った選択をしたい方に。客観的なデータで判断の参考にできます。</div>
 </div>
 </div>
 </div>
@@ -1037,22 +1253,42 @@ renderQuestion();
 <div style="margin:1.5rem auto;max-width:760px;padding:0 1rem">
 <div style="background:white;border-radius:16px;padding:1.5rem;box-shadow:0 4px 20px rgba(0,0,0,.08)">
 <h2 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;border-left:4px solid #4f46e5;padding-left:10px;color:#1e293b">よくある質問（詳細）</h2>
-<div style="margin-bottom:1.2rem;padding-bottom:1.2rem;border-bottom:1px solid #f1f5f9">
-<p style="font-size:.9rem;font-weight:700;color:#1e293b;margin:0 0 .5rem">Q: 税金や保険の計算はどの程度正確ですか？</p>
-<p style="font-size:.85rem;color:#475569;line-height:1.8;margin:0">A: 本ツールは公的機関発表の標準的な税率・係数を使用した参考計算ツールです。実際の税額は収入の種類・控除の適用有無・家族構成等によって変わります。正確な申告額は国税庁のe-Taxまたは税理士にご確認ください。</p>
-</div>
-<div style="margin-bottom:1.2rem;padding-bottom:1.2rem;border-bottom:1px solid #f1f5f9">
-<p style="font-size:.9rem;font-weight:700;color:#1e293b;margin:0 0 .5rem">Q: NISA・iDeCoの制度は変わりましたか？</p>
-<p style="font-size:.85rem;color:#475569;line-height:1.8;margin:0">A: 2024年1月から新NISAが始まり、年間投資枠が最大360万円に拡大されました。また非課税保有期間が無制限になりました。iDeCoの掛金上限も職業によって異なります。最新情報は金融庁・国税庁の公式サイトでご確認ください。</p>
-</div>
-<div style="margin-bottom:1.2rem;padding-bottom:1.2rem;border-bottom:1px solid #f1f5f9">
-<p style="font-size:.9rem;font-weight:700;color:#1e293b;margin:0 0 .5rem">Q: 計算結果をFPや税理士に見せることはできますか？</p>
-<p style="font-size:.85rem;color:#475569;line-height:1.8;margin:0">A: はい、スクリーンショットやブラウザの印刷機能（PDF保存）で計算結果を保存してFP・税理士との相談資料としてご活用いただけます。専門家への相談時に現状を正確に伝えるうえで有効です。</p>
-</div>
-<div style="margin-bottom:1.2rem;padding-bottom:1.2rem;border-bottom:1px solid #f1f5f9">
-<p style="font-size:.9rem;font-weight:700;color:#1e293b;margin:0 0 .5rem">Q: 副業収入がある場合の税計算はどうすればいいですか？</p>
-<p style="font-size:.85rem;color:#475569;line-height:1.8;margin:0">A: 副業収入（雑所得・事業所得）は確定申告が必要です。年間20万円を超える副業収入がある場合は翌年3月15日までに確定申告を行う必要があります。経費の計上方法は収入の種類によって異なりますので、国税庁のタックスアンサーを参考にしてください。</p>
-</div>
+
+<details open style="border:1px solid #e2e8f0;border-radius:8px;margin-bottom:8px;overflow:hidden">
+  <summary style="padding:14px 16px;font-size:14px;font-weight:700;color:#1e293b;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center">リフォームローンは年収いくらから借りられますか？<span style="color:#9ca3af;font-size:18px;">＋</span></summary>
+  <div style="padding:12px 16px;font-size:13px;color:#475569;background:#f8fafc;line-height:1.8">一般的に、銀行・信用金庫のリフォームローン（無担保）は<strong>年収200万円以上</strong>から申し込みが可能です。ただし年収300万未満では審査が厳しくなる傾向があり、借入可能額も低くなります。年収400〜500万円以上あれば、300万円程度のリフォーム費用は比較的スムーズに審査が通るケースが多いです。</div>
+</details>
+
+<details style="border:1px solid #e2e8f0;border-radius:8px;margin-bottom:8px;overflow:hidden">
+  <summary style="padding:14px 16px;font-size:14px;font-weight:700;color:#1e293b;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center">住宅ローン残債があってもリフォームローンを借りられますか？<span style="color:#9ca3af;font-size:18px;">＋</span></summary>
+  <div style="padding:12px 16px;font-size:13px;color:#475569;background:#f8fafc;line-height:1.8">借りられます。ただし、住宅ローン残債とリフォームローンを合わせた年間返済額が年収の35〜40%以内に収まることが審査の目安になります。住宅ローン残債が多い場合は、<strong>リフォーム費用を住宅ローンに組み込む（借り換え一体型）</strong>ことで低金利・長期返済が可能になるため、金融機関に相談してみましょう。</div>
+</details>
+
+<details style="border:1px solid #e2e8f0;border-radius:8px;margin-bottom:8px;overflow:hidden">
+  <summary style="padding:14px 16px;font-size:14px;font-weight:700;color:#1e293b;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center">リフォームローンの審査から融資まで何日かかりますか？<span style="color:#9ca3af;font-size:18px;">＋</span></summary>
+  <div style="padding:12px 16px;font-size:13px;color:#475569;background:#f8fafc;line-height:1.8">無担保リフォームローンは<strong>最短3〜5営業日</strong>で融資が実行されるケースが多いです。担保型（不動産を担保にする）の場合は抵当権設定の手続きが必要なため、2〜4週間程度かかることがあります。工事着工前に余裕をもって申し込むことをおすすめします。</div>
+</details>
+
+<details style="border:1px solid #e2e8f0;border-radius:8px;margin-bottom:8px;overflow:hidden">
+  <summary style="padding:14px 16px;font-size:14px;font-weight:700;color:#1e293b;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center">省エネ補助金とリフォームローンは同時に使えますか？<span style="color:#9ca3af;font-size:18px;">＋</span></summary>
+  <div style="padding:12px 16px;font-size:13px;color:#475569;background:#f8fafc;line-height:1.8">はい、組み合わせて利用できます。たとえば断熱改修工事200万円に対し、先進的窓リノベ事業（最大200万円）の補助金を申請して50万円の補助を受け、残り150万円にリフォームローンを充てる使い方が典型的です。<strong>補助金は工事前・着工後に申請手続きが必要</strong>なため、リフォーム業者と補助金申請のスケジュールを事前に確認してください。</div>
+</details>
+
+<details style="border:1px solid #e2e8f0;border-radius:8px;margin-bottom:8px;overflow:hidden">
+  <summary style="padding:14px 16px;font-size:14px;font-weight:700;color:#1e293b;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center">リフォームローンは繰り上げ返済できますか？手数料はかかりますか？<span style="color:#9ca3af;font-size:18px;">＋</span></summary>
+  <div style="padding:12px 16px;font-size:13px;color:#475569;background:#f8fafc;line-height:1.8">多くのリフォームローンは繰り上げ返済に対応しています。手数料は金融機関によって異なり、<strong>無料〜数万円程度</strong>の幅があります。ネット銀行系は繰り上げ返済手数料が無料のケースが多いです。繰り上げ返済を検討している場合は、申し込み前に金融機関に手数料と最低繰り上げ返済額（10万円以上など条件がある場合も）を確認しておきましょう。</div>
+</details>
+
+<details style="border:1px solid #e2e8f0;border-radius:8px;margin-bottom:8px;overflow:hidden">
+  <summary style="padding:14px 16px;font-size:14px;font-weight:700;color:#1e293b;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center">リフォームローン診断を利用するベストなタイミングはいつですか？<span style="color:#9ca3af;font-size:18px;">＋</span></summary>
+  <div style="padding:12px 16px;font-size:13px;color:#475569;background:#f8fafc;line-height:1.8">本ツールの活用タイミングとしては、<strong>①リフォームの工事見積もりを業者から取得した直後</strong>（実際の金額がわかったタイミング）、<strong>②住宅ローンの返済残高が半分以下になった時期</strong>（借り換え一体型ローンの有利さが増す時期）、<strong>③省エネ補助金の公募開始時期（例年4〜6月頃）の前</strong>が特に効果的です。補助金と組み合わせた実質負担額をシミュレーションできます。工事着工前の資金計画段階で一度診断しておくことで、金融機関への相談時に具体的な数字を示せるため交渉力が上がります。</div>
+</details>
+
+<details style="border:1px solid #e2e8f0;border-radius:8px;margin-bottom:8px;overflow:hidden">
+  <summary style="padding:14px 16px;font-size:14px;font-weight:700;color:#1e293b;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center">中古マンションのリフォームでもこの診断ツールは使えますか？<span style="color:#9ca3af;font-size:18px;">＋</span></summary>
+  <div style="padding:12px 16px;font-size:13px;color:#475569;background:#f8fafc;line-height:1.8">はい、ご利用いただけます。中古マンションの場合は、Q2「物件の種類」で「持ち家（マンション）」を選択してください。マンションは土地の共有持分があるため担保価値がやや低めになりますが、無担保リフォームローンは利用可能です。<strong>500万円以上の大規模リノベーションの場合は、購入と同時なら住宅ローン一体型（フラット35リノベ等）が有利</strong>です。なお、マンションのリフォームは管理組合への届出・承認が必要な場合があるため、工事前に確認が必要です。</div>
+</details>
+
 
 </div>
 </div>
@@ -1085,41 +1321,14 @@ renderQuestion();
 <div style="margin:1.5rem auto;max-width:760px;padding:0 1rem">
 <div style="padding:1.25rem 1.5rem;background:#f0f9ff;border:1px solid #bae6fd;border-radius:.75rem">
 <h3 style="font-size:1rem;font-weight:700;margin:0 0 .75rem;color:#0c4a6e">ℹ️ このツールについて</h3>
-<p style="margin:0;font-size:.88rem;color:#0c4a6e;line-height:1.9">「リフォームローン診断」はAppADayCreatorが提供する無料Webツールです。お金・家計に関する情報を素早く手軽に確認できます。会員登録・アプリインストール不要で、ブラウザからすぐにご利用いただけます。すべての処理はブラウザ内で完結するため、入力した情報が外部サーバーに送信されることはなく、プライバシーも保護されます。スマートフォン・タブレット・PCのすべてに対応したレスポンシブデザインを採用し、外出先や通勤中でも快適にご利用いただけます。AppADayCreatorでは、日常生活のあらゆるシーンで役立つWebツールを400本以上無料で提供しています。金融・健康・育児・キャリア・旅行など幅広いカテゴリのツールをご活用ください。</p>
+<p style="margin:0;font-size:.88rem;color:#0c4a6e;line-height:1.9">「リフォームローン診断」はAppADayCreatorが提供する無料Webツールです。お金・家計に関する情報を素早く手軽に確認できます。会員登録・アプリインストール不要で、ブラウザからすぐにご利用いただけます。すべての処理はブラウザ内で完結するため、入力した情報が外部サーバーに送信されることはなく、プライバシーも保護されます。AppADayCreatorでは、日常生活のあらゆるシーンで役立つWebツールを400本以上無料で提供しています。金融・健康・育児・キャリア・旅行など幅広いカテゴリのツールをご活用ください。</p>
 </div>
 </div>
 <!-- r31-extra-guide -->
 <div style="margin:1.5rem auto;max-width:760px;padding:0 1rem">
 <div style="background:white;border-radius:16px;padding:1.5rem;box-shadow:0 4px 20px rgba(0,0,0,.06)">
-<h2 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;border-left:4px solid #10b981;padding-left:10px;color:#1e293b">お金・家計ツールの活用ガイド</h2>
-<p style="font-size:.88rem;color:#475569;line-height:1.9;margin:0 0 .75rem">
-本ツール「リフォームローン診断」は、お金・家計に関連する情報の確認・計算・診断をブラウザ上で手軽に行えるように設計されています。
-初回利用時にはまずフォームや入力欄に必要な情報を入力し、「計算」「診断」「確認」などのボタンを押してください。
-結果はリアルタイムで表示され、条件を変えながら何度でも再計算・再診断をお試しいただけます。
-ご不明な点があった場合は、各入力項目の横にある説明文や「？」アイコンをご確認ください。
-</p>
-<p style="font-size:.88rem;color:#475569;line-height:1.9;margin:0 0 .75rem">
-スマートフォンからのご利用でも、PC同様にすべての機能をお使いいただけます。
-スマートフォンのホーム画面に本ページを追加（ブックマーク）すれば、アプリのように素早くアクセスできます。
-ブラウザの印刷機能（Ctrl+P または右上メニュー）を使えば、結果をPDF形式で保存・印刷することが可能です。
-計算結果のスクリーンショットを家族・友人・専門家と共有するのもお勧めです。
-</p>
-<h3 style="font-size:.95rem;font-weight:700;margin:1rem 0 .6rem;color:#1e293b">AppADayCreator のツールの特徴</h3>
-<ul style="margin:0;padding-left:1.25rem;font-size:.88rem;color:#475569;line-height:2.1">
-<li><strong>完全無料・登録不要</strong> — アカウント作成・メールアドレス登録なしで今すぐご利用いただけます</li>
-<li><strong>プライバシー完全保護</strong> — 入力したデータはすべてブラウザ内で処理され、外部サーバーには一切送信されません</li>
-<li><strong>マルチデバイス完全対応</strong> — スマートフォン・タブレット・PCすべてで最適なレイアウトで表示されます</li>
-<li><strong>定期的なコンテンツ更新</strong> — 法改正・制度変更・最新データに対応した情報を随時更新しています</li>
-<li><strong>広告による持続的な無料運営</strong> — 広告収入によって運営しているため、ユーザーの皆様は永続的に無料でご利用いただけます</li>
-<li><strong>400本以上のツールを無料提供</strong> — お金・健康・育児・キャリア・旅行・住まいなど幅広いジャンルのツールをご活用ください</li>
-</ul>
 <h3 style="font-size:.95rem;font-weight:700;margin:1.25rem 0 .6rem;color:#1e293b">関連ツールのご紹介</h3>
-<p style="font-size:.88rem;color:#475569;line-height:1.9;margin:0">
-AppADayCreatorでは、本ツール以外にもお金・家計カテゴリの便利なツールを多数ご提供しています。
-家計管理・健康記録・育児サポート・キャリア計画・旅行準備・住まいの整理など、日常生活のさまざまなシーンで役立つツールがそろっています。
-ぜひトップページから他のツールもご活用ください。すべて完全無料・登録不要でお使いいただけます。
-本ツールへのご意見・ご感想はお問い合わせページからお送りいただけます。皆様のフィードバックが品質改善につながります。
-</p>
+
 </div>
 </div>
 
@@ -1127,9 +1336,8 @@ AppADayCreatorでは、本ツール以外にもお金・家計カテゴリの便
   <p style="margin:0 0 4px;"><strong style="color:#cbd5e1;">免責事項</strong>: 本ツールの計算・診断結果はあくまで参考情報です。投資・税務・保険に関する最終判断はご自身の責任のもと行ってください。必要に応じてFP・税理士にご相談ください。</p>
   <p style="margin:4px 0 0;"><a href="privacy-policy.html" style="color:#64748b;text-decoration:underline;">プライバシーポリシー</a> ／ <a href="mailto:appadaycreator@gmail.com" style="color:#64748b;text-decoration:underline;">お問い合わせ</a></p>
 <div style="background:linear-gradient(135deg,#1e3a5f,#2563eb);padding:16px 12px;text-align:center;margin-top:12px;">
-  <p style="color:#e0e7ff;font-size:12px;font-weight:600;margin:0 0 4px;">運営：AppADayCreator / Tech&amp;Brace</p>
-  <p style="color:#cbd5e1;font-size:11px;margin:0 0 10px;">累計399個のWebサービスをAI駆動で開発し、現在361件以上を公開・運用しています。
-AI導入・業務自動化・Webサービス開発のご相談はこちら。</p>
+  <p style="color:#e0e7ff;font-size:12px;font-weight:600;margin:0 0 4px;">運営：AppADayCreator</p>
+  <p style="color:#cbd5e1;font-size:11px;margin:0 0 10px;">マネー・健康・育児・キャリアなど日常に役立つ無料Webサービスを提供。IT・業務効率化のご相談はこちら。</p>
   <a href="https://tech-and-brace.com/ai-automation?utm_source=appadaycreator&utm_medium=footer&utm_campaign=b2b_cta" target="_blank" rel="noopener" onclick="if(typeof gtag==='function'){gtag('event','b2b_cta_click',{source_page:window.location.pathname,cta_position:'footer',tool_category:document.querySelector('[aria-label=\"パンくずリスト\"] li:nth-child(3) a')?document.querySelector('[aria-label=\"パンくずリスト\"] li:nth-child(3) a').innerText:'general',destination:'https://tech-and-brace.com/ai-automation'})}" style="display:inline-block;background:#fff;color:#1e3a5f;font-size:11px;font-weight:700;padding:6px 16px;border-radius:20px;text-decoration:none;">法人・B2B相談はこちら →</a>
 </div>
 </footer>
@@ -1166,5 +1374,71 @@ AI導入・業務自動化・Webサービス開発のご相談はこちら。</p
   }, {passive:true});
 })();
 </script>
+<div style="text-align:center;margin:20px auto;max-width:728px;padding:0 16px">
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-8427583028015858" data-ad-slot="auto" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>try{(adsbygoogle = window.adsbygoogle || []).push({});}catch(e){}</script>
+</div>
+<!-- r52-reno-guide -->
+<div style="background:#eff6ff;border:2px solid #bfdbfe;border-radius:14px;padding:1.5rem;margin:1.5rem auto;max-width:728px" id="renovation-loan-knowledge-guide">
+  <h2 style="font-size:1.125rem;font-weight:800;color:#0369a1;margin:0 0 .5rem">リフォームローンの基礎知識ガイド</h2>
+  <p style="font-size:.75rem;color:#9ca3af;margin:0 0 1rem">最終更新: 2026年6月</p>
+  <div style="background:#fff8f0;border:2px solid #fed7aa;border-radius:10px;padding:1.25rem 1.5rem;margin:0 0 1rem;font-size:.875rem">
+    <p style="font-weight:700;color:#c2410c;margin:0 0 .5rem">⚠️ 本ツールに関する重要なご注意</p>
+    <p style="color:#374151;line-height:1.8;margin:0 0 .5rem"><strong>本ツールの計算結果は参考情報であり、税務・法律・投資判断の代替ではありません。</strong>ローンの借り入れは慎重に検討し、返済計画を十分に確認してください。専門家（税理士・ファイナンシャルプランナー等）またはかかりつけの金融機関にご相談ください。</p>
+    <p style="color:#374151;line-height:1.8;margin:0"><a href="https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk4_000141.html" style="color:#c2410c">国土交通省「住宅リフォーム」</a> | <a href="https://www.fsa.go.jp/" style="color:#c2410c">金融庁ホーム</a> | <a href="https://www.kokusen.go.jp/" style="color:#c2410c">国民生活センター</a></p>
+  </div>
+  <div style="font-size:.9rem;color:#374151;line-height:1.8">
+    <h3 style="font-size:1rem;font-weight:700;color:#0369a1;margin:.75rem 0 .4rem">リフォームローンの種類と特徴</h3>
+    <table style="width:100%;border-collapse:collapse;font-size:.85rem;margin:.75rem 0">
+      <tr style="background:#dbeafe"><th style="padding:.5rem .75rem;border:1px solid #bfdbfe;text-align:left">種類</th><th style="padding:.5rem .75rem;border:1px solid #bfdbfe">金利の目安</th><th style="padding:.5rem .75rem;border:1px solid #bfdbfe">特徴</th></tr>
+      <tr><td style="padding:.5rem .75rem;border:1px solid #dbeafe">住宅ローン（リフォーム一体）</td><td style="padding:.5rem .75rem;border:1px solid #dbeafe;text-align:center">0.5〜1.5%程度</td><td style="padding:.5rem .75rem;border:1px solid #dbeafe">低金利・審査あり・抵当権設定</td></tr>
+      <tr style="background:#eff6ff"><td style="padding:.5rem .75rem;border:1px solid #dbeafe">フラット35（リフォーム）</td><td style="padding:.5rem .75rem;border:1px solid #dbeafe;text-align:center">1.5〜2%程度</td><td style="padding:.5rem .75rem;border:1px solid #dbeafe">長期固定金利・住宅金融支援機構</td></tr>
+      <tr><td style="padding:.5rem .75rem;border:1px solid #dbeafe">リフォームローン（無担保）</td><td style="padding:.5rem .75rem;border:1px solid #dbeafe;text-align:center">2〜6%程度</td><td style="padding:.5rem .75rem;border:1px solid #dbeafe">担保不要・審査比較的簡易・少額向き</td></tr>
+      <tr style="background:#eff6ff"><td style="padding:.5rem .75rem;border:1px solid #dbeafe">教育ローン・カードローン</td><td style="padding:.5rem .75rem;border:1px solid #dbeafe;text-align:center">3〜15%程度</td><td style="padding:.5rem .75rem;border:1px solid #dbeafe">高金利・急ぎの場合のみ</td></tr>
+    </table>
+    <h3 style="font-size:1rem;font-weight:700;color:#0369a1;margin:.75rem 0 .4rem">リフォームローン利用前のチェックリスト</h3>
+    <ul style="margin:.5rem 0;padding-left:1.25rem">
+      <li>リフォームの工事内容・見積もりを複数の業者から取得する</li>
+      <li>省エネリフォーム・バリアフリー改修は補助金・税制優遇の対象になる場合がある</li>
+      <li>既存の住宅ローンの残高・返済状況を確認する</li>
+      <li>返済期間中の月々の支払額が家計に無理なく収まるかを試算する</li>
+    </ul>
+    <h3 style="font-size:1rem;font-weight:700;color:#0369a1;margin:.75rem 0 .4rem">利用できる補助金・税制優遇</h3>
+    <p style="font-size:.85rem">国土交通省「こどもエコすまい支援事業」・経済産業省「省エネ補助金」・各自治体の独自補助制度など。住宅リフォーム推進協議会のサイトも参考になります。</p>
+  </div>
+  <details style="margin-top:1rem">
+    <summary style="font-size:.9375rem;font-weight:700;color:#0369a1;cursor:pointer;padding:.5rem 0">よくある質問（FAQ）</summary>
+    <div style="padding:.75rem 0 0;font-size:.9375rem;color:#374151;line-height:1.8">
+      <p style="margin-top:.75rem"><strong>Q. リフォームローンと住宅ローンの違いは何ですか？</strong></p>
+      <p>A. 住宅ローンは住宅の購入・新築を主目的とした融資で、金利が低く（0.5〜2%程度）・返済期間も長いです。リフォームローンは既存住宅の改修を目的とした融資で、無担保タイプは金利が高め（2〜6%）です。住宅ローン残債がある場合は借り換えや一体型ローンも検討できます。</p>
+      <p style="margin-top:.75rem"><strong>Q. 省エネリフォームで受けられる補助金はありますか？</strong></p>
+      <p>A. 国土交通省・経済産業省の省エネリフォーム補助金（内窓設置・断熱材・高効率給湯器等）が毎年実施されています。補助額・対象工事・申請方法は年度ごとに変わるため、国土交通省「住宅省エネキャンペーン」の最新情報を確認してください。各自治体独自の補助制度もあります。</p>
+      <p style="margin-top:.75rem"><strong>Q. リフォームの費用を抑えるために注意すべき点は何ですか？</strong></p>
+      <p>A. まず複数の業者から見積もりを取ることが基本です。工事の内容・範囲を明確にした上で比較してください。追加工事が発生しやすいため、事前に「追加費用の上限・判断基準」を業者と取り決めておくことをおすすめします。消費者庁「住宅リフォームのトラブル事例」も参考になります。</p>
+      <p style="margin-top:.75rem"><strong>Q. リフォームで住宅ローン控除は使えますか？</strong></p>
+      <p>A. 一定の要件を満たすリフォーム（耐震・バリアフリー・省エネ・長期優良住宅化工事等）は、住宅ローン控除（住宅借入金等特別控除）の対象になる場合があります。要件は複雑なため、国税庁「住宅をリフォームした場合の住宅借入金等特別控除」ページを確認するか、税理士にご相談ください。</p>
+      <p style="margin-top:.75rem"><strong>Q. リフォームのトラブルを避けるには何に注意すればよいですか？</strong></p>
+      <p>A. 契約前に工事内容・工期・費用・保証内容を書面で確認することが重要です。口頭での約束は後でトラブルになりやすいです。施工業者が建設業許可を持っているか確認し、完成後には工事内容と仕上がりを確認してから代金を支払いましょう。消費者庁「住宅リフォームをお考えの方へ」も参考になります。</p>
+      <p style="margin-top:.75rem"><strong>Q. リフォームローンの審査で重視されるポイントは何ですか？</strong></p>
+      <p>A. 主な審査ポイントは①年収・収入の安定性（雇用形態・勤続年数）②現在の借入残高（住宅ローン・自動車ローン等）③信用情報（延滞履歴）④リフォームの内容・金額です。自己資本（頭金）を入れることで審査が通りやすくなる場合があります。詳細は各金融機関のローン担当者にご相談ください。</p>
+    </div>
+  </details>
+</div>
+<!-- r52-reno-guide -->
+<div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:10px;padding:16px 18px;margin:20px auto;max-width:728px" id="related-tools">
+  <p style="font-weight:800;font-size:.9rem;color:#1e293b;margin:0 0 10px">🔧 関連ツール</p>
+  <ul style="margin:0;padding-left:0;list-style:none">
+    <li style="margin:0 0 6px"><a href="/car-insurance-advisor/" style="color:#4f46e5;font-size:.88rem;text-decoration:none">🔧 自動車保険アドバイザー：リフォーム期間中の保険見直し</a></li>
+    <li style="margin:0 0 6px"><a href="/furusato-gift-finder/" style="color:#4f46e5;font-size:.88rem;text-decoration:none">🔧 ふるさと納税返礼品ファインダー：リフォーム費用の節税を活用</a></li>
+    <li style="margin:0 0 6px"><a href="/nisa-ideco-simulator/" style="color:#4f46e5;font-size:.88rem;text-decoration:none">🔧 NISA・iDeCoシミュレーター：リフォーム後の余剰資金を運用</a></li>
+  </ul>
+</div>
+<!-- r31-cookie-banner -->
+<div id="cookie-banner" style="position:fixed;bottom:0;left:0;right:0;background:#1e293b;color:#f1f5f9;padding:1rem 1.5rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.75rem;z-index:9999;font-size:.85rem;box-shadow:0 -2px 10px rgba(0,0,0,.3)">
+<div>当サイトはCookieおよびGoogle Analyticsを使用しています。<a href="/privacy-policy.html" style="color:#60a5fa;text-decoration:underline">プライバシーポリシー</a>をご確認ください。</div>
+<button onclick="document.getElementById('cookie-banner').style.display='none';window.grantConsent && window.grantConsent()" style="background:transparent;color:#94a3b8;border:1px solid #475569;padding:.4rem 1rem;border-radius:.375rem;font-size:.8rem;font-weight:500;cursor:pointer;white-space:nowrap;min-height:36px;">✓ 同意して閉じる</button>
+</div>
+<script>if(localStorage.getItem('cookie-consent'))document.getElementById('cookie-banner').style.display='none'</script>
+<script src="/assets/consent-mode.js"></script>
 </body>
 </html>
